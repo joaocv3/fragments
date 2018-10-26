@@ -1,0 +1,6 @@
+fun readFile(filepath) =
+    let val file = TextIO.openIn filepath
+        val words = TextIO.inputAll file
+        val _ = TextIO.closeIn file
+    in String.tokens (fn c => c = #"\n") words
+end
