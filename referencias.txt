@@ -1,2 +1,3 @@
 https://learnxinyminutes.com/docs/standard-ml/
-http://sml-family.org/
+http://sml-family.org/Basis/string.html
+http://sml-family.org/Basis/list.html
