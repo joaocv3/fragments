@@ -4,3 +4,9 @@ fun readFile(filepath) =
         val _ = TextIO.closeIn file
     in String.tokens (fn c => c = #"\n") words
 end
+
+fun writeFile(filepath) =
+    let val file = TextIO.openOut(filepath)
+        val _ = TextIO.output(file, "placeholder 1\nplaceholder 2\n")
+    in TextIO.closeOut(file)
+end
