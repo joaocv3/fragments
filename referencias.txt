@@ -1,2 +1,8 @@
 https://learnxinyminutes.com/docs/standard-ml/
 http://sml-family.org/
+
+
+anda pelos fragmentos e ve se bate, se bater, guardamos o indice em uma lista e repete.
+                                    se não bater, retira o ultimo indice e varre a partir dele
+				    
+Repetir até dar match na palavra ou acabar de varrer todos os fragmentos a partir do ultimo indices
